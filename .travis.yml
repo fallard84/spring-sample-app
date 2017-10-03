@@ -1,1 +1,4 @@
 language: java
+deploy:
+  provider: azure_web_apps
+  #slot: azure_deployment_slotname       # (optional) If AZURE_WA_SLOT isn't set
